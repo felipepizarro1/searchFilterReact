@@ -8,6 +8,8 @@ function App() {
   const [searchWords, setSearchWords] = useState('')
   return (
     <div className="App">
+      <p>Search box using useState</p>
+      <p>View the code <a href="https://github.com/felipepizarro1/searchFilterReact" target="blank_">here</a></p>
       <input type="text" placeholder="Search" onChange={(event) =>{ setSearchWords(event.target.value) }}/>
       {JSONDATA.filter((val)=> {
         if(searchWords == ""){
@@ -24,6 +26,7 @@ function App() {
         )
       }
       )}
+      
     </div>
   );
 }

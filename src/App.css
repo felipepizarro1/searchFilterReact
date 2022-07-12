@@ -1,9 +1,15 @@
+
+
 .App {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 30vh;
+  
+  
+ 
 }
 
 .App input {
@@ -15,3 +21,8 @@
   padding-left: 10px;
 } 
 
+p {
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
